@@ -33,7 +33,7 @@ public class Jugador extends Thread{
 		posY = SUELO;
 		estado = 0; //0- SIN MOVIMIENTO, 1- MOVIENDOSE, 2 - GOLPEADO
 		dirH = 1; //-1 IZQUIERDA, 1 DERECHA
-		velocidad = 5;
+		velocidad = 10;
 		
 		//CARGAR IMAGENES DE MOVIMIENTO
 		for (int i = 0; i < imgD.length; i++) {
